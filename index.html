@@ -109,7 +109,34 @@
   <link rel="stylesheet" href="lumen-theme.css" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="lumen-polish.css" />
-  <link rel="stylesheet" href="client-emmanuel-brand.css" />
+
+  <style id="emmanuel-brand-fix">
+    .brand__mark{
+      width:38px !important;
+      height:38px !important;
+      flex:0 0 38px !important;
+      display:grid !important;
+      place-items:center !important;
+      border-radius:50% !important;
+      overflow:hidden !important;
+      background:transparent !important;
+      box-shadow:none !important;
+      border:0 !important;
+      color:transparent !important;
+      font-size:0 !important;
+      padding:0 !important;
+    }
+    .brand__mark img{
+      display:block !important;
+      width:100% !important;
+      height:100% !important;
+      object-fit:contain !important;
+    }
+    .brand--footer .brand__mark{
+      background:#fff !important;
+      padding:2px !important;
+    }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
