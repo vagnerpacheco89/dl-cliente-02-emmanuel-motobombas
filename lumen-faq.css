@@ -12,7 +12,7 @@
   padding: 18px;
   border: 1px solid rgba(21,21,21, .10);
   border-radius: 30px;
-  background: #eef4ef;
+  background: #fff4d6;
   box-shadow: 0 18px 44px rgba(21,21,21, .07);
 }
 
@@ -21,7 +21,7 @@
   overflow: hidden;
   min-height: 570px;
   border-radius: 24px;
-  background: #153f30;
+  background: #151515;
 }
 
 .faq-media::after {
@@ -29,7 +29,7 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(9, 46, 33, .08) 18%, rgba(9, 46, 33, .28) 48%, rgba(9, 46, 33, .92) 100%);
+    linear-gradient(180deg, rgba(21,21,21,.08) 18%, rgba(21,21,21,.28) 48%, rgba(21,21,21,.92) 100%);
   pointer-events: none;
 }
 
@@ -121,7 +121,7 @@
 
 .faq-list details:hover {
   transform: translateY(-1px);
-  border-color: rgba(16, 81, 59, .19);
+  border-color: rgba(21,21,21,.19);
   box-shadow:
     0 12px 24px rgba(21,21,21, .065),
     inset 0 1px 0 rgba(255, 255, 255, .95);
@@ -159,7 +159,7 @@
 .faq-list details[open]::after {
   top: 0;
   bottom: 0;
-  background: linear-gradient(180deg, #f5bf25 0%, #f7cf55 58%, #176b4b 100%);
+  background: linear-gradient(180deg, #f5bf25 0%, #f7cf55 58%, #b98200 100%);
 }
 
 .faq-list summary {
@@ -185,7 +185,7 @@
 
 .faq-list summary:focus-visible {
   border-radius: 16px;
-  box-shadow: inset 0 0 0 2px rgba(23, 107, 75, .42);
+  box-shadow: inset 0 0 0 2px rgba(185,130,0,.42);
 }
 
 .faq-list summary span {
@@ -197,7 +197,7 @@
   border: 1px solid rgba(21,21,21, .13);
   border-radius: 50%;
   background: rgba(255, 255, 255, .92);
-  color: #14513b;
+  color: #151515;
   box-shadow:
     0 5px 12px rgba(21,21,21, .045),
     inset 0 1px 0 rgba(255, 255, 255, .92);
@@ -213,8 +213,8 @@
 }
 
 .faq-list details:hover summary span {
-  border-color: rgba(23, 107, 75, .24);
-  background: #f5f8f4;
+  border-color: rgba(185,130,0,.24);
+  background: #fff4d6;
   box-shadow:
     0 7px 15px rgba(21,21,21, .07),
     inset 0 1px 0 rgba(255, 255, 255, .95);
@@ -235,7 +235,7 @@
   margin: -1px 58px 20px 18px;
   padding-top: 15px;
   border-top: 1px solid rgba(21,21,21, .08);
-  color: #697a72;
+  color: #ebae10;
   font-size: 13px;
   line-height: 1.72;
 }
@@ -280,7 +280,7 @@
 .faq-list details:nth-child(9) > p::before,
 .faq-list details:nth-child(10) > p::before {
   display: block;
-  color: #61736a;
+  color: #ebae10;
   font-size: 13px;
   line-height: 1.72;
 }
