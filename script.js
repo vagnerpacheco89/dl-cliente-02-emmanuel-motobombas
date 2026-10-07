@@ -1,4 +1,5 @@
 (() => {
+  const WHATSAPP_URL = 'https://wa.me/554899494066?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Emmanuel%20Motobombas%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.';
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   const siteHeader = document.querySelector('.site-header');
@@ -46,7 +47,17 @@
     const cta = event.target.closest('[data-demo-cta]');
     if (!cta) return;
     event.preventDefault();
-    if (dialog?.showModal) dialog.showModal();
+
+    const isSocialPlaceholder =
+      cta.classList.contains('footer-social--instagram') ||
+      cta.classList.contains('footer-social--facebook');
+
+    if (isSocialPlaceholder) {
+      if (dialog?.showModal) dialog.showModal();
+      return;
+    }
+
+    window.open(WHATSAPP_URL, '_blank', 'noopener,noreferrer');
   });
 
   document.querySelectorAll('[data-dialog-close]').forEach((button) => {
