@@ -1,19 +1,9 @@
 /*
-  EMMANUEL MOTOBOMBAS — TESTE CROMÁTICO MÍNIMO SOBRE O LUMEN MASTER
+  EMMANUEL MOTOBOMBAS — OVERRIDES DO CLIENTE
 
-  Regra aprovada:
-  - restaurar todas as cores do LUMEN MASTER;
-  - trocar somente a família primária verde do sistema;
-  - manter secundária, terciária e todos os demais apoios exatamente como no MASTER.
-
-  LUMEN -> EMMANUEL
-  Primária:       #1C5B43 -> #EBAE10
-  Primária deep:  #10442F -> #B98200
-  Primária soft:  #E7EFE9 -> #FFF4D6
+  Estado atual:
+  - nenhuma cor personalizada aplicada;
+  - paleta 100% herdada do LUMEN MASTER;
+  - futuras alterações cromáticas serão feitas somente após revisão
+    e aprovação seção por seção pelo Founder.
 */
-
-:root{
-  --green:#ebae10;
-  --green-deep:#b98200;
-  --green-soft:#fff4d6;
-}
