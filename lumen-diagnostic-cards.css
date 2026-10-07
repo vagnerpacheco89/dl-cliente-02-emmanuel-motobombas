@@ -24,12 +24,12 @@
   min-height: 124px !important;
   padding: 19px 20px !important;
   overflow: hidden !important;
-  border: 1px solid rgba(21,21,21,.10) !important;
+  border: 1px solid rgba(20, 83, 59, .10) !important;
   border-radius: 22px !important;
   background:
     radial-gradient(circle at 8% 0%, rgba(255, 210, 63, .10), transparent 34%),
     linear-gradient(180deg, rgba(255, 254, 250, .98) 0%, rgba(255, 255, 255, .86) 100%) !important;
-  box-shadow: 0 10px 24px rgba(21,21,21,.05) !important;
+  box-shadow: 0 10px 24px rgba(18, 80, 57, .05) !important;
   transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease !important;
 }
 
@@ -49,7 +49,7 @@
 .diagnostic-features article:hover {
   transform: translateY(-2px) !important;
   border-color: rgba(255, 199, 43, .30) !important;
-  box-shadow: 0 15px 30px rgba(21,21,21,.08) !important;
+  box-shadow: 0 15px 30px rgba(18, 80, 57, .08) !important;
 }
 
 .diagnostic-features span {
@@ -70,7 +70,7 @@
   display: block !important;
   min-width: 0 !important;
   margin: 1px 0 0 !important;
-  color: #151515 !important;
+  color: #123e2f !important;
   font-size: 16px !important;
   font-weight: 800 !important;
   line-height: 1.2 !important;
@@ -87,7 +87,7 @@
   max-width: none !important;
   min-width: 0 !important;
   margin: 0 !important;
-  color: #ebae10 !important;
+  color: #708078 !important;
   white-space: normal !important;
   word-break: normal !important;
   overflow-wrap: normal !important;
@@ -97,7 +97,7 @@
   display: block !important;
   width: 100% !important;
   max-width: none !important;
-  color: #ebae10 !important;
+  color: #708078 !important;
   font-size: 13px !important;
   line-height: 1.5 !important;
   white-space: normal !important;
