@@ -1,7 +1,7 @@
 .faq-section {
   padding-top: 58px;
   padding-bottom: 76px;
-  background: #ffffff;
+  background: #fffdf8;
 }
 
 .faq-card {
@@ -10,10 +10,10 @@
   gap: 18px;
   align-items: stretch;
   padding: 18px;
-  border: 1px solid rgba(21,21,21, .10);
+  border: 1px solid rgba(16, 68, 47, .10);
   border-radius: 30px;
-  background: #fff4d6;
-  box-shadow: 0 18px 44px rgba(21,21,21, .07);
+  background: #eef4ef;
+  box-shadow: 0 18px 44px rgba(16, 68, 47, .07);
 }
 
 .faq-media {
@@ -21,7 +21,7 @@
   overflow: hidden;
   min-height: 570px;
   border-radius: 24px;
-  background: #151515;
+  background: #153f30;
 }
 
 .faq-media::after {
@@ -29,7 +29,7 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(21,21,21,.08) 18%, rgba(21,21,21,.28) 48%, rgba(21,21,21,.92) 100%);
+    linear-gradient(180deg, rgba(9, 46, 33, .08) 18%, rgba(9, 46, 33, .28) 48%, rgba(9, 46, 33, .92) 100%);
   pointer-events: none;
 }
 
@@ -93,24 +93,24 @@
   align-content: start;
   gap: 12px;
   padding: 12px;
-  border: 1px solid rgba(21,21,21, .07);
+  border: 1px solid rgba(16, 68, 47, .07);
   border-radius: 24px;
   background: rgba(255, 253, 248, .72);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, .72),
-    0 8px 24px rgba(21,21,21, .035);
+    0 8px 24px rgba(16, 68, 47, .035);
 }
 
 .faq-list details {
   position: relative;
   margin: 0;
   overflow: hidden;
-  border: 1px solid rgba(21,21,21, .10);
+  border: 1px solid rgba(16, 68, 47, .10);
   border-radius: 18px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, .96) 0%, rgba(255, 254, 250, .94) 100%);
   box-shadow:
-    0 7px 18px rgba(21,21,21, .035),
+    0 7px 18px rgba(16, 68, 47, .035),
     inset 0 1px 0 rgba(255, 255, 255, .90);
   transition:
     transform .2s ease,
@@ -121,9 +121,9 @@
 
 .faq-list details:hover {
   transform: translateY(-1px);
-  border-color: rgba(21,21,21,.19);
+  border-color: rgba(16, 81, 59, .19);
   box-shadow:
-    0 12px 24px rgba(21,21,21, .065),
+    0 12px 24px rgba(16, 68, 47, .065),
     inset 0 1px 0 rgba(255, 255, 255, .95);
 }
 
@@ -151,7 +151,7 @@
   background:
     linear-gradient(180deg, #fffefa 0%, #fffaf0 100%);
   box-shadow:
-    0 16px 32px rgba(21,21,21, .08),
+    0 16px 32px rgba(16, 68, 47, .08),
     0 0 0 3px rgba(245, 191, 37, .09),
     inset 0 1px 0 rgba(255, 255, 255, .96);
 }
@@ -159,7 +159,7 @@
 .faq-list details[open]::after {
   top: 0;
   bottom: 0;
-  background: linear-gradient(180deg, #f5bf25 0%, #f7cf55 58%, #b98200 100%);
+  background: linear-gradient(180deg, #f5bf25 0%, #f7cf55 58%, #176b4b 100%);
 }
 
 .faq-list summary {
@@ -170,7 +170,7 @@
   min-height: 70px;
   padding: 15px 16px 15px 18px;
   list-style: none;
-  color: #b98200;
+  color: #10442f;
   font-size: 15px;
   font-weight: 800;
   line-height: 1.35;
@@ -185,7 +185,7 @@
 
 .faq-list summary:focus-visible {
   border-radius: 16px;
-  box-shadow: inset 0 0 0 2px rgba(185,130,0,.42);
+  box-shadow: inset 0 0 0 2px rgba(23, 107, 75, .42);
 }
 
 .faq-list summary span {
@@ -194,12 +194,12 @@
   display: grid;
   place-items: center;
   justify-self: end;
-  border: 1px solid rgba(21,21,21, .13);
+  border: 1px solid rgba(16, 68, 47, .13);
   border-radius: 50%;
   background: rgba(255, 255, 255, .92);
-  color: #151515;
+  color: #14513b;
   box-shadow:
-    0 5px 12px rgba(21,21,21, .045),
+    0 5px 12px rgba(16, 68, 47, .045),
     inset 0 1px 0 rgba(255, 255, 255, .92);
   font-size: 20px;
   font-weight: 500;
@@ -213,10 +213,10 @@
 }
 
 .faq-list details:hover summary span {
-  border-color: rgba(185,130,0,.24);
-  background: #fff4d6;
+  border-color: rgba(23, 107, 75, .24);
+  background: #f5f8f4;
   box-shadow:
-    0 7px 15px rgba(21,21,21, .07),
+    0 7px 15px rgba(16, 68, 47, .07),
     inset 0 1px 0 rgba(255, 255, 255, .95);
 }
 
@@ -224,7 +224,7 @@
   transform: rotate(45deg);
   border-color: rgba(245, 191, 37, .72);
   background: linear-gradient(180deg, #ffdd68 0%, #f5bf25 100%);
-  color: #b98200;
+  color: #10442f;
   box-shadow:
     0 8px 18px rgba(245, 191, 37, .22),
     inset 0 1px 0 rgba(255, 255, 255, .65);
@@ -234,8 +234,8 @@
   max-width: 650px;
   margin: -1px 58px 20px 18px;
   padding-top: 15px;
-  border-top: 1px solid rgba(21,21,21, .08);
-  color: #ebae10;
+  border-top: 1px solid rgba(16, 68, 47, .08);
+  color: #697a72;
   font-size: 13px;
   line-height: 1.72;
 }
@@ -266,7 +266,7 @@
 .faq-list details:nth-child(9) summary::before,
 .faq-list details:nth-child(10) summary::before {
   display: block;
-  color: #b98200;
+  color: #10442f;
   font-size: 15px;
   font-weight: 800;
   line-height: 1.35;
@@ -280,7 +280,7 @@
 .faq-list details:nth-child(9) > p::before,
 .faq-list details:nth-child(10) > p::before {
   display: block;
-  color: #ebae10;
+  color: #61736a;
   font-size: 13px;
   line-height: 1.72;
 }
