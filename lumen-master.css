@@ -53,7 +53,7 @@
   border-radius: 999px !important;
   background:
     linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.045)),
-    rgba(21,21,21,.38) !important;
+    rgba(2,48,34,.38) !important;
   color: rgba(255,255,255,.96) !important;
   box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 8px 22px rgba(0,0,0,.10) !important;
   font-size: 11.5px !important;
@@ -73,7 +73,7 @@
   padding: 7px;
   border-radius: 50%;
   background: linear-gradient(180deg, #ffdc5b 0%, var(--yellow) 100%);
-  color: #151515;
+  color: #0d4b36;
   stroke: currentColor;
   fill: none;
   stroke-width: 1.8;
@@ -97,11 +97,11 @@
   height: 68px !important;
   padding: 0 18px !important;
   gap: 18px !important;
-  border: 1px solid rgba(21,21,21,.10);
+  border: 1px solid rgba(16, 61, 44, .10);
   border-radius: 20px;
   background: rgba(255, 254, 249, .94);
   box-shadow:
-    0 16px 38px rgba(21,21,21,.10),
+    0 16px 38px rgba(18, 91, 64, .10),
     inset 0 1px 0 rgba(255,255,255,.88);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
@@ -115,18 +115,18 @@
 .site-header .brand__mark {
   width: 42px !important;
   height: 42px !important;
-  background: linear-gradient(180deg, #b98200 0%, #151515 100%) !important;
+  background: linear-gradient(180deg, #1b7955 0%, #0f563c 100%) !important;
   color: #fff !important;
   font-size: 13px !important;
   box-shadow:
     0 0 0 2px rgba(255,254,249,.98),
     0 0 0 3px rgba(255,210,63,.96),
-    0 8px 18px rgba(21,21,21,.18) !important;
+    0 8px 18px rgba(13, 73, 52, .18) !important;
   transition: width .22s ease, height .22s ease, font-size .22s ease;
 }
 
 .site-header .brand__text strong {
-  color: #151515;
+  color: #123e2f;
   font-size: 15px !important;
   font-weight: 800;
   letter-spacing: -.025em;
@@ -135,7 +135,7 @@
 
 .site-header .brand__text small {
   margin-top: 5px !important;
-  color: #ebae10;
+  color: #75857d;
   font-size: 9.5px !important;
   font-weight: 700;
   letter-spacing: .19em !important;
@@ -148,7 +148,7 @@
   border: 1px solid rgba(255, 199, 43, .52) !important;
   border-radius: 999px !important;
   background: rgba(255, 210, 63, .17) !important;
-  color: #151515 !important;
+  color: #15523c !important;
   box-shadow: none !important;
   font-size: 9.5px !important;
   font-weight: 850 !important;
@@ -163,7 +163,7 @@
 .site-header .desktop-nav a {
   position: relative;
   padding: 24px 0 22px;
-  color: #b98200 !important;
+  color: #425c51 !important;
   font-size: 12.5px !important;
   font-weight: 750 !important;
   letter-spacing: .045em;
@@ -187,7 +187,7 @@
 
 .site-header .desktop-nav a:hover,
 .site-header .desktop-nav a:focus-visible {
-  color: #151515 !important;
+  color: #0f563c !important;
 }
 
 .site-header .desktop-nav a:hover::after,
@@ -201,7 +201,7 @@
   border: 1px solid rgba(255, 183, 20, .44) !important;
   border-radius: 14px !important;
   background: linear-gradient(180deg, #ffdc55 0%, var(--yellow) 100%) !important;
-  color: #151515 !important;
+  color: #103d2c !important;
   box-shadow:
     0 11px 24px rgba(255, 199, 43, .24),
     inset 0 1px 0 rgba(255,255,255,.48) !important;
@@ -240,7 +240,7 @@
   padding-inline: 15px !important;
   border-radius: 17px;
   box-shadow:
-    0 14px 34px rgba(21,21,21,.14),
+    0 14px 34px rgba(12, 73, 52, .14),
     inset 0 1px 0 rgba(255,255,255,.90);
 }
 
@@ -283,10 +283,10 @@
   width: min(1180px, calc(100% - 40px));
   margin: 4px auto 0;
   overflow: hidden;
-  border: 1px solid rgba(21,21,21,.10) !important;
+  border: 1px solid rgba(16, 61, 44, .10) !important;
   border-radius: 16px;
   background: rgba(255,254,249,.98) !important;
-  box-shadow: 0 18px 42px rgba(21,21,21,.12);
+  box-shadow: 0 18px 42px rgba(18,91,64,.12);
 }
 
 .mobile-menu__inner {
@@ -294,8 +294,8 @@
 }
 
 .mobile-menu__inner a {
-  color: #b98200;
-  border-bottom-color: rgba(21,21,21,.10) !important;
+  color: #315548;
+  border-bottom-color: rgba(16,61,44,.10) !important;
   font-size: 13px;
   font-weight: 750;
   letter-spacing: .045em;
@@ -303,7 +303,7 @@
 }
 
 .menu-toggle {
-  border-color: rgba(21,21,21,.14) !important;
+  border-color: rgba(16,61,44,.14) !important;
   background: rgba(255,255,255,.76) !important;
   border-radius: 12px !important;
 }
@@ -321,7 +321,7 @@
 .diagnostic-card__head h2 {
   max-width: 1100px !important;
   margin: 0 !important;
-  color: #151515 !important;
+  color: #103d2c !important;
   font-size: clamp(38px, 3.7vw, 54px) !important;
   font-weight: 800 !important;
   line-height: 1.02 !important;
@@ -330,7 +330,7 @@
 .diagnostic-card__head h2::before { content: none !important; display: none !important; }
 
 .diagnostic-features article:nth-child(4) strong {
-  color: #151515 !important;
+  color: #123e2f !important;
   font-size: 16px !important;!important;
   font-weight: 800 !important;
   line-height: 1.22 !important;
@@ -342,7 +342,7 @@
   display: none !important;
 }
 .diagnostic-features article:nth-child(4) small {
-  color: #ebae10 !important;
+  color: #708078 !important;
   font-size: 13px !important;
   line-height: 1.5 !important;
 }
@@ -462,7 +462,7 @@
   border: 1px solid rgba(245,191,37,.92);
   border-radius: 999px;
   background: #f5bf25;
-  color: #b98200;
+  color: #10442f;
   box-shadow: 0 10px 24px rgba(245,191,37,.22);
   font-size: 9px;
   font-weight: 800;
