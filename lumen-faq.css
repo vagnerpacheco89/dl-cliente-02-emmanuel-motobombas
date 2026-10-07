@@ -53,7 +53,7 @@
 
 .faq-media__copy .eyebrow {
   margin-bottom: 13px;
-  color: #f5bf25;
+  color: #c68d04;
 }
 
 .faq-media__copy h2 {
@@ -159,7 +159,7 @@
 .faq-list details[open]::after {
   top: 0;
   bottom: 0;
-  background: linear-gradient(180deg, #f5bf25 0%, #f7cf55 58%, #176b4b 100%);
+  background: linear-gradient(180deg, #c68d04 0%, #f7cf55 58%, #176b4b 100%);
 }
 
 .faq-list summary {
@@ -223,7 +223,7 @@
 .faq-list details[open] summary span {
   transform: rotate(45deg);
   border-color: rgba(245, 191, 37, .72);
-  background: linear-gradient(180deg, #ffdd68 0%, #f5bf25 100%);
+  background: linear-gradient(180deg, #f1c658 0%, #c68d04 100%);
   color: #10442f;
   box-shadow:
     0 8px 18px rgba(245, 191, 37, .22),
