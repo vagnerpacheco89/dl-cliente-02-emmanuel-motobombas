@@ -25,13 +25,13 @@
   margin: 0 !important;
   align-self: center !important;
   overflow: hidden !important;
-  border: 1px solid rgba(21,21,21,.10) !important;
+  border: 1px solid rgba(20, 83, 59, .10) !important;
   border-radius: 16px !important;
-  background-color: #fff4d6 !important;
+  background-color: #e7ece7 !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: cover !important;
-  box-shadow: 0 8px 18px rgba(21,21,21,.09) !important;
+  box-shadow: 0 8px 18px rgba(18, 80, 57, .09) !important;
   color: transparent !important;
   font-size: 0 !important;
   line-height: 0 !important;
@@ -84,7 +84,7 @@
 .diagnostic-features article:nth-child(4) strong::before {
   content: "Chuveiro queimado";
   display: block;
-  color: #151515;
+  color: #123e2f;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.22;
@@ -108,10 +108,10 @@
   background: linear-gradient(
     110deg,
     transparent 34%,
-    rgba(185,130,0,0) 40%,
-    #b98200 48%,
-    #b98200 54%,
-    rgba(185,130,0,0) 62%,
+    rgba(23, 107, 75, 0) 40%,
+    #176b4b 48%,
+    #176b4b 54%,
+    rgba(23, 107, 75, 0) 62%,
     transparent 68%
   );
   background-size: 300% 100%;
@@ -136,7 +136,7 @@
 @media (prefers-reduced-motion: reduce) {
   .diagnostic-features article:hover::after {
     animation: none;
-    background: #b98200;
+    background: #176b4b;
     opacity: .9;
   }
 }
