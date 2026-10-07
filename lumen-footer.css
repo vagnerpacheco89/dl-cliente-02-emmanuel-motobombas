@@ -1,7 +1,7 @@
 /* FOOTER — expanded information architecture for the LUMEN demo. */
 .footer-wrap {
   padding: 10px 0 28px !important;
-  background: #fffdf8 !important;
+  background: #ffffff !important;
 }
 
 .site-footer {
@@ -12,8 +12,8 @@
   border-radius: 30px !important;
   background:
     radial-gradient(circle at 8% 0%, rgba(245, 191, 37, .10), transparent 24%),
-    linear-gradient(145deg, #174f3a 0%, #10442f 58%, #0c3828 100%) !important;
-  box-shadow: 0 22px 50px rgba(16, 68, 47, .11);
+    linear-gradient(145deg, #222326 0%, #b98200 58%, #151515 100%) !important;
+  box-shadow: 0 22px 50px rgba(21,21,21, .11);
 }
 
 .site-footer::before {
@@ -60,7 +60,7 @@
   padding: 8px 12px 8px 8px;
   border: 1px solid rgba(255, 255, 255, .72);
   border-radius: 16px;
-  background: #fffdf8;
+  background: #ffffff;
   box-shadow: 0 12px 28px rgba(4, 30, 20, .12);
 }
 
