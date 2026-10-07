@@ -49,7 +49,7 @@
   gap: 8px !important;
   min-height: 50px !important;
   padding: 5px 10px 5px 5px !important;
-  border: 1px solid rgba(255, 210, 63, .28) !important;
+  border: 1px solid rgba(235,174,16, .28) !important;
   border-radius: 999px !important;
   background:
     linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.045)),
@@ -72,14 +72,14 @@
   height: 34px;
   padding: 7px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #ffdc5b 0%, var(--yellow) 100%);
+  background: linear-gradient(180deg, #f0c24c 0%, var(--yellow) 100%);
   color: #0d4b36;
   stroke: currentColor;
   fill: none;
   stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
-  box-shadow: 0 5px 14px rgba(255,199,43,.22), inset 0 1px 0 rgba(255,255,255,.44);
+  box-shadow: 0 5px 14px rgba(185,130,0,.22), inset 0 1px 0 rgba(255,255,255,.44);
 }
 
 /* Navigation — exact frozen floating light bar. */
@@ -120,7 +120,7 @@
   font-size: 13px !important;
   box-shadow:
     0 0 0 2px rgba(255,254,249,.98),
-    0 0 0 3px rgba(255,210,63,.96),
+    0 0 0 3px rgba(235,174,16,.96),
     0 8px 18px rgba(13, 73, 52, .18) !important;
   transition: width .22s ease, height .22s ease, font-size .22s ease;
 }
@@ -145,9 +145,9 @@
 .site-header .nav-demo-tag {
   min-height: 26px !important;
   padding: 0 10px !important;
-  border: 1px solid rgba(255, 199, 43, .52) !important;
+  border: 1px solid rgba(185,130,0, .52) !important;
   border-radius: 999px !important;
-  background: rgba(255, 210, 63, .17) !important;
+  background: rgba(235,174,16, .17) !important;
   color: #15523c !important;
   box-shadow: none !important;
   font-size: 9.5px !important;
@@ -180,7 +180,7 @@
   height: 2px;
   border-radius: 999px;
   background: var(--yellow);
-  box-shadow: 0 0 10px rgba(255, 210, 63, .28);
+  box-shadow: 0 0 10px rgba(235,174,16, .28);
   transform: translateX(-50%);
   transition: width .18s ease, bottom .22s ease;
 }
@@ -200,10 +200,10 @@
   padding: 0 17px 0 19px !important;
   border: 1px solid rgba(255, 183, 20, .44) !important;
   border-radius: 14px !important;
-  background: linear-gradient(180deg, #ffdc55 0%, var(--yellow) 100%) !important;
+  background: linear-gradient(180deg, #efbe40 0%, var(--yellow) 100%) !important;
   color: #103d2c !important;
   box-shadow:
-    0 11px 24px rgba(255, 199, 43, .24),
+    0 11px 24px rgba(185,130,0, .24),
     inset 0 1px 0 rgba(255,255,255,.48) !important;
   font-size: 12.5px !important;
   font-weight: 900 !important;
@@ -222,8 +222,8 @@
 }
 
 .site-header .nav-cta:hover {
-  background: linear-gradient(180deg, #ffe370 0%, #ffd23f 100%) !important;
-  box-shadow: 0 14px 30px rgba(255, 199, 43, .30) !important;
+  background: linear-gradient(180deg, #f3ce70 0%, #ebae10 100%) !important;
+  box-shadow: 0 14px 30px rgba(185,130,0, .30) !important;
   transform: translateY(-1px);
 }
 
@@ -407,7 +407,7 @@
 /* Final CTA copy is semantic/static; this only preserves the frozen visual treatment. */
 .final-cta__content .eyebrow {
   margin-bottom: 15px !important;
-  color: #f7cb43 !important;
+  color: #ebae10 !important;
   font-size: 10px !important;
   font-weight: 800 !important;
   letter-spacing: .14em !important;
@@ -461,7 +461,7 @@
   padding: 10px 14px 10px 31px;
   border: 1px solid rgba(245,191,37,.92);
   border-radius: 999px;
-  background: #f5bf25;
+  background: #c68d04;
   color: #10442f;
   box-shadow: 0 10px 24px rgba(245,191,37,.22);
   font-size: 9px;
