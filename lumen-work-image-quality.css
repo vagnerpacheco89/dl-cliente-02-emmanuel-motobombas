@@ -33,9 +33,9 @@
 .work-carousel-card__shade {
   background: linear-gradient(
     180deg,
-    rgba(4,30,21,0) 18%,
-    rgba(4,30,21,.035) 45%,
-    rgba(4,30,21,.76) 100%
+    rgba(21,21,21,0) 18%,
+    rgba(21,21,21,.035) 45%,
+    rgba(21,21,21,.76) 100%
   ) !important;
 }
 
