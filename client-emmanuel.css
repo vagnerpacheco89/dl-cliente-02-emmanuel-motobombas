@@ -1,9 +1,12 @@
 /*
-  EMMANUEL MOTOBOMBAS — OVERRIDES DO CLIENTE
+  EMMANUEL MOTOBOMBAS — REGRA CROMÁTICA VIGENTE
 
-  Estado atual:
-  - nenhuma cor personalizada aplicada;
-  - paleta 100% herdada do LUMEN MASTER;
-  - futuras alterações cromáticas serão feitas somente após revisão
-    e aprovação seção por seção pelo Founder.
+  O LUMEN MASTER permanece visualmente intacto, exceto pela família
+  secundária amarela do sistema:
+
+  #F3CF56 -> #EBAE10  (amarelo/dourado Emmanuel)
+  #FFDB68 -> #B98200  (dourado escuro derivado / hover)
+
+  Nenhuma outra cor do LUMEN deve ser alterada sem decisão do Founder
+  durante a revisão seção por seção.
 */
