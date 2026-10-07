@@ -1,0 +1,605 @@
+/* LUMEN MASTER v1.0 — final static consolidation.
+   Loaded last. Preserves the frozen visual state while removing runtime CSS/content substitutions. */
+
+/* Exact interface polish previously injected by script-base.js. */
+.hero {
+  padding-top: 10px !important;
+  padding-bottom: 54px !important;
+}
+
+.hero-contact {
+  width: 350px !important;
+  padding: 22px 22px 18px !important;
+}
+
+.hero-contact::before {
+  content: none !important;
+  display: none !important;
+}
+
+.hero-contact__kicker {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-contact strong {
+  max-width: 100% !important;
+  margin: 0 auto 14px !important;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hero-contact .text-link {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+
+.hero-proof {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px !important;
+  width: min(650px, 100%);
+  margin-top: 28px !important;
+}
+
+.hero-proof > span {
+  display: grid !important;
+  grid-template-columns: 34px minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 8px !important;
+  min-height: 50px !important;
+  padding: 5px 10px 5px 5px !important;
+  border: 1px solid rgba(255, 210, 63, .28) !important;
+  border-radius: 999px !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.045)),
+    rgba(2,48,34,.38) !important;
+  color: rgba(255,255,255,.96) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 8px 22px rgba(0,0,0,.10) !important;
+  font-size: 11.5px !important;
+  font-weight: 750 !important;
+  line-height: 1.22 !important;
+  letter-spacing: -.015em !important;
+}
+
+.hero-proof > span::before {
+  content: none !important;
+  display: none !important;
+}
+
+.hero-proof > span svg {
+  width: 34px;
+  height: 34px;
+  padding: 7px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ffdc5b 0%, var(--yellow) 100%);
+  color: #0d4b36;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  box-shadow: 0 5px 14px rgba(255,199,43,.22), inset 0 1px 0 rgba(255,255,255,.44);
+}
+
+/* Navigation — exact frozen floating light bar. */
+.site-header {
+  top: 0 !important;
+  padding: 10px 0 0 !important;
+  background: transparent !important;
+  border-bottom: 0 !important;
+  backdrop-filter: none !important;
+  transition: padding .22s ease;
+}
+
+.site-header .nav {
+  position: relative;
+  height: 68px !important;
+  padding: 0 18px !important;
+  gap: 18px !important;
+  border: 1px solid rgba(16, 61, 44, .10);
+  border-radius: 20px;
+  background: rgba(255, 254, 249, .94);
+  box-shadow:
+    0 16px 38px rgba(18, 91, 64, .10),
+    inset 0 1px 0 rgba(255,255,255,.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  transition: height .22s ease, border-radius .22s ease, box-shadow .22s ease, padding .22s ease;
+}
+
+.site-header .brand {
+  gap: 12px !important;
+}
+
+.site-header .brand__mark {
+  width: 42px !important;
+  height: 42px !important;
+  background: linear-gradient(180deg, #1b7955 0%, #0f563c 100%) !important;
+  color: #fff !important;
+  font-size: 13px !important;
+  box-shadow:
+    0 0 0 2px rgba(255,254,249,.98),
+    0 0 0 3px rgba(255,210,63,.96),
+    0 8px 18px rgba(13, 73, 52, .18) !important;
+  transition: width .22s ease, height .22s ease, font-size .22s ease;
+}
+
+.site-header .brand__text strong {
+  color: #123e2f;
+  font-size: 15px !important;
+  font-weight: 800;
+  letter-spacing: -.025em;
+  transition: font-size .22s ease;
+}
+
+.site-header .brand__text small {
+  margin-top: 5px !important;
+  color: #75857d;
+  font-size: 9.5px !important;
+  font-weight: 700;
+  letter-spacing: .19em !important;
+  transition: font-size .22s ease, margin .22s ease;
+}
+
+.site-header .nav-demo-tag {
+  min-height: 26px !important;
+  padding: 0 10px !important;
+  border: 1px solid rgba(255, 199, 43, .52) !important;
+  border-radius: 999px !important;
+  background: rgba(255, 210, 63, .17) !important;
+  color: #15523c !important;
+  box-shadow: none !important;
+  font-size: 9.5px !important;
+  font-weight: 850 !important;
+  letter-spacing: .085em !important;
+  transition: min-height .22s ease, padding .22s ease, font-size .22s ease;
+}
+
+.site-header .desktop-nav {
+  gap: 25px !important;
+}
+
+.site-header .desktop-nav a {
+  position: relative;
+  padding: 24px 0 22px;
+  color: #425c51 !important;
+  font-size: 12.5px !important;
+  font-weight: 750 !important;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+  transition: color .18s ease, padding .22s ease;
+}
+
+.site-header .desktop-nav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  width: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--yellow);
+  box-shadow: 0 0 10px rgba(255, 210, 63, .28);
+  transform: translateX(-50%);
+  transition: width .18s ease, bottom .22s ease;
+}
+
+.site-header .desktop-nav a:hover,
+.site-header .desktop-nav a:focus-visible {
+  color: #0f563c !important;
+}
+
+.site-header .desktop-nav a:hover::after,
+.site-header .desktop-nav a:focus-visible::after {
+  width: 24px;
+}
+
+.site-header .nav-cta {
+  min-height: 46px !important;
+  padding: 0 17px 0 19px !important;
+  border: 1px solid rgba(255, 183, 20, .44) !important;
+  border-radius: 14px !important;
+  background: linear-gradient(180deg, #ffdc55 0%, var(--yellow) 100%) !important;
+  color: #103d2c !important;
+  box-shadow:
+    0 11px 24px rgba(255, 199, 43, .24),
+    inset 0 1px 0 rgba(255,255,255,.48) !important;
+  font-size: 12.5px !important;
+  font-weight: 900 !important;
+  letter-spacing: .015em !important;
+  gap: 9px;
+  transition: min-height .22s ease, padding .22s ease, transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.site-header .nav-cta::after {
+  content: "→";
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  transform: translateX(0);
+  transition: transform .18s ease;
+}
+
+.site-header .nav-cta:hover {
+  background: linear-gradient(180deg, #ffe370 0%, #ffd23f 100%) !important;
+  box-shadow: 0 14px 30px rgba(255, 199, 43, .30) !important;
+  transform: translateY(-1px);
+}
+
+.site-header .nav-cta:hover::after {
+  transform: translateX(3px);
+}
+
+.site-header.is-compact {
+  padding: 5px 0 !important;
+}
+
+.site-header.is-compact .nav {
+  height: 58px !important;
+  padding-inline: 15px !important;
+  border-radius: 17px;
+  box-shadow:
+    0 14px 34px rgba(12, 73, 52, .14),
+    inset 0 1px 0 rgba(255,255,255,.90);
+}
+
+.site-header.is-compact .brand__mark {
+  width: 35px !important;
+  height: 35px !important;
+  font-size: 11.5px !important;
+}
+
+.site-header.is-compact .brand__text strong {
+  font-size: 13.5px !important;
+}
+
+.site-header.is-compact .brand__text small {
+  margin-top: 3px !important;
+  font-size: 8.5px !important;
+}
+
+.site-header.is-compact .nav-demo-tag {
+  min-height: 23px !important;
+  padding-inline: 8px !important;
+  font-size: 8.5px !important;
+}
+
+.site-header.is-compact .desktop-nav a {
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+.site-header.is-compact .desktop-nav a::after {
+  bottom: 10px;
+}
+
+.site-header.is-compact .nav-cta {
+  min-height: 40px !important;
+  padding-inline: 15px !important;
+}
+
+.mobile-menu {
+  width: min(1180px, calc(100% - 40px));
+  margin: 4px auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(16, 61, 44, .10) !important;
+  border-radius: 16px;
+  background: rgba(255,254,249,.98) !important;
+  box-shadow: 0 18px 42px rgba(18,91,64,.12);
+}
+
+.mobile-menu__inner {
+  padding: 10px 18px 18px !important;
+}
+
+.mobile-menu__inner a {
+  color: #315548;
+  border-bottom-color: rgba(16,61,44,.10) !important;
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+}
+
+.menu-toggle {
+  border-color: rgba(16,61,44,.14) !important;
+  background: rgba(255,255,255,.76) !important;
+  border-radius: 12px !important;
+}
+
+.menu-toggle span {
+  background: var(--green-deep) !important;
+}
+
+/* Fixed-header anchor offset. */
+[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Replace old CSS-generated copy with semantic HTML while keeping identical typography. */
+.diagnostic-card__head h2 {
+  max-width: 1100px !important;
+  margin: 0 !important;
+  color: #103d2c !important;
+  font-size: clamp(38px, 3.7vw, 54px) !important;
+  font-weight: 800 !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.055em !important;
+}
+.diagnostic-card__head h2::before { content: none !important; display: none !important; }
+
+.diagnostic-features article:nth-child(4) strong {
+  color: #123e2f !important;
+  font-size: 16px !important;!important;
+  font-weight: 800 !important;
+  line-height: 1.22 !important;
+  letter-spacing: -.025em !important;
+}
+.diagnostic-features article:nth-child(4) strong::before,
+.diagnostic-features article:nth-child(4) small::before {
+  content: none !important;
+  display: none !important;
+}
+.diagnostic-features article:nth-child(4) small {
+  color: #708078 !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+}
+
+/* Area copy is now actual DOM text. */
+.area-card__intro h2 {
+  margin: 0 0 18px !important;
+  max-width: 470px !important;
+  color: #fff !important;
+  font-size: clamp(34px, 3.45vw, 52px) !important;
+  line-height: 1.03 !important;
+  letter-spacing: -.045em !important;
+}
+.area-card__intro h2::after { content: none !important; display: none !important; }
+.area-card__intro > p:last-child {
+  margin: 0 !important;
+  max-width: 480px !important;
+  color: rgba(255,255,255,.72) !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+}
+.area-card__intro > p:last-child::after { content: none !important; display: none !important; }
+
+/* FAQ final six questions are semantic/static. */
+.faq-media__copy h2 {
+  margin: 0 !important;
+  max-width: 390px !important;
+  color: #fff !important;
+  font-size: clamp(30px, 3vw, 43px) !important;
+  line-height: 1.06 !important;
+  letter-spacing: -.045em !important;
+}
+.faq-media__copy h2::after,
+.faq-media__copy::after {
+  content: none !important;
+  display: none !important;
+}
+.faq-media__lead {
+  display: block;
+  max-width: 400px;
+  margin: 16px 0 0;
+  color: rgba(255,255,255,.78);
+  font-size: 13px;
+  line-height: 1.65;
+}
+#faq .faq-list details {
+  display: block !important;
+}
+#faq .faq-list details summary {
+  font-size: 15px !important;
+}
+#faq .faq-list details > p {
+  font-size: 13px !important;
+  line-height: 1.72 !important;
+}
+#faq .faq-list details summary::before,
+#faq .faq-list details > p::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Final CTA copy is semantic/static; this only preserves the frozen visual treatment. */
+.final-cta__content .eyebrow {
+  margin-bottom: 15px !important;
+  color: #f7cb43 !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: .14em !important;
+}
+.final-cta__content .eyebrow::after { content: none !important; display: none !important; }
+
+.final-cta__content h2 {
+  max-width: 690px !important;
+  margin-bottom: 18px !important;
+  color: #fff !important;
+  font-size: clamp(38px, 4vw, 58px) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.05em !important;
+}
+.final-cta__content h2::after { content: none !important; display: none !important; }
+
+.final-cta__content > p.final-cta__support {
+  max-width: 610px !important;
+  margin: 0 !important;
+  color: rgba(255,255,255,.76) !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+}
+.final-cta__content > p.final-cta__support::after { content: none !important; display: none !important; }
+
+.final-cta__content .btn {
+  font-size: 12px !important;
+  font-weight: 900 !important;
+}
+.final-cta__content .btn::before { content: none !important; display: none !important; }
+
+.final-cta__content::after { content: none !important; display: none !important; }
+.final-cta__content > p.final-cta__note {
+  display: block !important;
+  max-width: 560px !important;
+  margin: 20px 0 0 !important;
+  color: rgba(255,255,255,.60) !important;
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  letter-spacing: .01em !important;
+}
+.final-cta__content > p.final-cta__note::after { content: none !important; display: none !important; }
+
+.final-cta__card::after { content: none !important; display: none !important; }
+.final-cta__badge {
+  position: absolute;
+  z-index: 4;
+  right: 24px;
+  bottom: 24px;
+  padding: 10px 14px 10px 31px;
+  border: 1px solid rgba(245,191,37,.92);
+  border-radius: 999px;
+  background: #f5bf25;
+  color: #10442f;
+  box-shadow: 0 10px 24px rgba(245,191,37,.22);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .035em;
+}
+.final-cta__badge-mobile { display: none; }
+
+@media (max-width: 980px) {
+  .hero-contact {
+    width: 326px !important;
+    padding: 20px 20px 17px !important;
+  }
+
+  .hero-contact strong { max-width: 100% !important; }
+  .hero-proof { width: min(610px, 100%); }
+  .hero-proof > span { font-size: 11px !important; }
+
+  .site-header { padding: 8px 0 6px !important; }
+  .site-header .nav {
+    height: 62px !important;
+    padding-inline: 14px !important;
+    border-radius: 18px;
+  }
+  .site-header .brand__mark {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .site-header .nav-demo-tag { margin-right: auto !important; }
+  .site-header.is-compact { padding: 4px 0 !important; }
+  .site-header.is-compact .nav { height: 56px !important; }
+
+  .final-cta__badge {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 820px) {
+  .area-card__intro > p:last-child { font-size: 14px !important; }
+}
+
+@media (max-width: 680px) {
+  [id] { scroll-margin-top: 82px; }
+
+  .hero { padding-bottom: 28px !important; }
+  .hero-contact {
+    left: 18px !important;
+    right: 18px !important;
+    width: auto !important;
+    padding: 18px 18px 16px !important;
+  }
+  .hero-contact strong {
+    max-width: none !important;
+    text-align: center;
+    white-space: normal;
+  }
+  .hero-contact .text-link {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .hero-proof {
+    grid-template-columns: 1fr !important;
+    gap: 7px !important;
+  }
+  .hero-proof > span {
+    min-height: 46px !important;
+    font-size: 12px !important;
+  }
+
+  .site-header { padding: 6px 0 5px !important; }
+  .site-header .nav {
+    width: min(100% - 24px, 1180px) !important;
+    height: 58px !important;
+    padding-inline: 12px !important;
+    gap: 9px !important;
+    border-radius: 16px;
+  }
+  .site-header .brand { gap: 9px !important; }
+  .site-header .brand__mark {
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 11.5px !important;
+  }
+  .site-header .brand__text strong { font-size: 13px !important; }
+  .site-header .brand__text small {
+    margin-top: 3px !important;
+    font-size: 8px !important;
+  }
+  .site-header .nav-demo-tag {
+    min-height: 22px !important;
+    padding-inline: 7px !important;
+    font-size: 7.5px !important;
+  }
+  .site-header .menu-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+  }
+  .mobile-menu {
+    width: calc(100% - 24px);
+    border-radius: 14px;
+  }
+  .site-header.is-compact .nav { height: 54px !important; }
+
+  .diagnostic-card__head h2 {
+    font-size: clamp(27px, 8.4vw, 32px) !important;
+  }
+  .diagnostic-features article:nth-child(4) strong { font-size: 15px !important; }
+  .diagnostic-features article:nth-child(4) small { font-size: 12.5px !important; line-height: 1.48 !important; }
+
+  .faq-media__copy h2 { font-size: 32px !important; }
+  .faq-media__lead { margin-top: 13px; font-size: 12px; }
+  #faq .faq-list details summary { font-size: 14px !important; }
+  #faq .faq-list details > p { font-size: 12.5px !important; line-height: 1.65 !important; }
+
+  .final-cta__content h2 { font-size: clamp(32px, 10vw, 43px) !important; }
+  .final-cta__content > p.final-cta__support { font-size: 14px !important; }
+  .final-cta__content > p.final-cta__note {
+    margin-top: 16px !important;
+    text-align: left !important;
+    font-size: 10px !important;
+  }
+  .final-cta__badge {
+    right: 16px !important;
+    bottom: 16px !important;
+    padding: 9px 12px !important;
+    font-size: 8.5px !important;
+    box-shadow: 0 10px 24px rgba(0,0,0,.12) !important;
+  }
+  .final-cta__badge-full { display: none; }
+  .final-cta__badge-mobile { display: inline; }
+}
+
+@media (max-width: 420px) {
+  .final-cta__content h2 { font-size: clamp(30px, 9.6vw, 40px) !important; }
+}
+
+@media (max-width: 380px) {
+  .diagnostic-card__head h2 { font-size: 26px !important; }
+}
