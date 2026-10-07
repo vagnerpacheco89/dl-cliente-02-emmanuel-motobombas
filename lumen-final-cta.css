@@ -2,19 +2,19 @@
 .final-cta {
   padding-top: 42px !important;
   padding-bottom: 36px !important;
-  background: #fffdf8;
+  background: #ffffff;
 }
 
 .final-cta__card {
   position: relative;
   min-height: 470px !important;
   overflow: hidden;
-  border: 1px solid rgba(16, 68, 47, .10);
+  border: 1px solid rgba(21,21,21, .10);
   border-radius: 30px !important;
   background:
     radial-gradient(circle at 8% 10%, rgba(255, 220, 104, .12), transparent 28%),
-    linear-gradient(135deg, #174f3a 0%, #10442f 60%, #0d3929 100%);
-  box-shadow: 0 24px 56px rgba(16, 68, 47, .13);
+    linear-gradient(135deg, #222326 0%, #b98200 60%, #151515 100%);
+  box-shadow: 0 24px 56px rgba(21,21,21, .13);
 }
 
 .final-cta__card::before {
@@ -40,7 +40,7 @@
   border: 1px solid rgba(245, 191, 37, .92);
   border-radius: 999px;
   background: #f5bf25;
-  color: #10442f;
+  color: #b98200;
   box-shadow: 0 10px 24px rgba(245, 191, 37, .22);
   font-size: 9px;
   font-weight: 800;
@@ -63,7 +63,7 @@
   inset: 0 !important;
   z-index: 1;
   background:
-    linear-gradient(90deg, #10442f 0%, #10442f 47%, rgba(16, 68, 47, .95) 53%, rgba(16, 68, 47, .56) 66%, rgba(16, 68, 47, .08) 88%, rgba(16, 68, 47, .02) 100%) !important;
+    linear-gradient(90deg, #b98200 0%, #b98200 47%, rgba(21,21,21, .95) 53%, rgba(21,21,21, .56) 66%, rgba(21,21,21, .08) 88%, rgba(21,21,21, .02) 100%) !important;
   pointer-events: none;
 }
 
@@ -185,7 +185,7 @@
 
   .final-cta__shade {
     background:
-      linear-gradient(180deg, #10442f 0%, #10442f 50%, rgba(16, 68, 47, .96) 58%, rgba(16, 68, 47, .42) 78%, rgba(16, 68, 47, .06) 100%) !important;
+      linear-gradient(180deg, #b98200 0%, #b98200 50%, rgba(21,21,21, .96) 58%, rgba(21,21,21, .42) 78%, rgba(21,21,21, .06) 100%) !important;
   }
 
   .final-cta__content {
@@ -227,7 +227,7 @@
 
   .final-cta__shade {
     background:
-      linear-gradient(180deg, #10442f 0%, #10442f 54%, rgba(16, 68, 47, .94) 63%, rgba(16, 68, 47, .36) 81%, rgba(16, 68, 47, .06) 100%) !important;
+      linear-gradient(180deg, #b98200 0%, #b98200 54%, rgba(21,21,21, .94) 63%, rgba(21,21,21, .36) 81%, rgba(21,21,21, .06) 100%) !important;
   }
 
   .final-cta__content {
