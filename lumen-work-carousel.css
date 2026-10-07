@@ -17,9 +17,9 @@
   border-radius: 30px;
   background:
     radial-gradient(circle at 94% 6%, rgba(255,255,255,.035), transparent 20%),
-    linear-gradient(145deg, #b98200 0%, #151515 55%, #151515 100%);
+    linear-gradient(145deg, #176b4b 0%, #125d43 55%, #0d4a36 100%);
   color: #fff;
-  box-shadow: 0 22px 52px rgba(21,21,21,.14);
+  box-shadow: 0 22px 52px rgba(12, 73, 52, .14);
 }
 
 .work-panel::before {
@@ -143,7 +143,7 @@
   overflow: hidden;
   border: 0;
   border-radius: 22px;
-  background: #151515;
+  background: #0b3f2e;
   box-shadow: none;
   isolation: isolate;
   transform: translateZ(0);
@@ -174,7 +174,7 @@
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(21,21,21,.02) 20%, rgba(21,21,21,.08) 46%, rgba(21,21,21,.84) 100%);
+    linear-gradient(180deg, rgba(4,30,21,.02) 20%, rgba(4,30,21,.08) 46%, rgba(4,30,21,.84) 100%);
   pointer-events: none;
 }
 
