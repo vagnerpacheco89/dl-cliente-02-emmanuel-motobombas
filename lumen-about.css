@@ -15,12 +15,12 @@
   min-height: 520px;
   background:
     radial-gradient(circle at 88% 18%, rgba(243, 207, 86, .11), transparent 24%),
-    linear-gradient(135deg, #0f4a34 0%, #15563d 58%, #0f4733 100%);
+    linear-gradient(135deg, #151515 0%, #151515 58%, #151515 100%);
   border-radius: 30px;
   overflow: hidden;
   color: #fff;
   position: relative;
-  box-shadow: 0 24px 58px rgba(18, 66, 48, .10);
+  box-shadow: 0 24px 58px rgba(21,21,21,.10);
 }
 
 .about-panel::after {
@@ -42,7 +42,7 @@
   min-height: 476px;
   border-radius: 24px;
   overflow: hidden;
-  background: #dfe7e1;
+  background: #fff4d6;
   box-shadow: 0 0 0 1px rgba(255,255,255,.32);
 }
 
@@ -92,7 +92,7 @@
 .about-person span {
   font-size: 10px;
   line-height: 1.35;
-  color: #66756e;
+  color: #ebae10;
 }
 
 .about-panel__head {
