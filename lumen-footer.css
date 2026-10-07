@@ -61,7 +61,7 @@
   border: 1px solid rgba(255, 255, 255, .72);
   border-radius: 16px;
   background: #ffffff;
-  box-shadow: 0 12px 28px rgba(4, 30, 20, .12);
+  box-shadow: 0 12px 28px rgba(21,21,21,.12);
 }
 
 .brand--footer .brand__mark {
