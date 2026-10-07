@@ -41,14 +41,14 @@
   width: 44px;
   height: 44px;
   padding: 0;
-  border: 1px solid rgba(255, 199, 43, .82);
+  border: 1px solid rgba(185,130,0, .82);
   border-radius: 50%;
-  background: linear-gradient(180deg, #ffdc58 0%, #ffd23f 100%);
+  background: linear-gradient(180deg, #f0c24c 0%, #ebae10 100%);
   color: transparent;
   font-size: 0;
   line-height: 0;
   box-sizing: border-box;
-  box-shadow: 0 7px 18px rgba(255, 199, 43, .16), inset 0 1px 0 rgba(255, 255, 255, .52);
+  box-shadow: 0 7px 18px rgba(185,130,0, .16), inset 0 1px 0 rgba(255, 255, 255, .52);
 }
 
 .service-links article > span::before {
@@ -99,10 +99,10 @@
 }
 
 .service-links article:hover > span {
-  border-color: #ffc72b;
-  background: linear-gradient(180deg, #ffe16c 0%, #ffd23f 100%);
+  border-color: #b98200;
+  background: linear-gradient(180deg, #f2ca64 0%, #ebae10 100%);
   transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(255, 199, 43, .22), inset 0 1px 0 rgba(255, 255, 255, .58);
+  box-shadow: 0 10px 22px rgba(185,130,0, .22), inset 0 1px 0 rgba(255, 255, 255, .58);
 }
 
 @media (max-width: 680px) {
@@ -133,7 +133,7 @@
   height: 2px;
   transform: translateX(-50%);
   border-radius: 999px;
-  background: linear-gradient(90deg, rgba(23, 107, 75, .24) 0 68%, #ffc72b 68% 100%);
+  background: linear-gradient(90deg, rgba(23, 107, 75, .24) 0 68%, #b98200 68% 100%);
   pointer-events: none;
 }
 
@@ -162,7 +162,7 @@
   border: 1px solid rgba(20, 83, 59, .08);
   border-radius: 30px;
   background:
-    radial-gradient(circle at 92% 8%, rgba(255, 210, 63, .16), transparent 24%),
+    radial-gradient(circle at 92% 8%, rgba(235,174,16, .16), transparent 24%),
     linear-gradient(145deg, #eef5ef 0%, #e9f1eb 52%, #f3f5ef 100%);
   box-shadow: 0 20px 54px rgba(18, 80, 57, .08);
 }
@@ -188,7 +188,7 @@
   height: 2px;
   border: 0;
   border-radius: 999px;
-  background: linear-gradient(90deg, rgba(23, 107, 75, .22) 0 66%, #ffc72b 66% 100%);
+  background: linear-gradient(90deg, rgba(23, 107, 75, .22) 0 66%, #b98200 66% 100%);
   pointer-events: none;
 }
 
@@ -214,7 +214,7 @@
   height: 2px;
   flex: 0 0 38px;
   border-radius: 999px;
-  background: #ffc72b;
+  background: #b98200;
 }
 
 .diagnostic-card__head h2 {
@@ -295,13 +295,13 @@
   width: 40px;
   height: 40px;
   margin: 0;
-  border: 1px solid rgba(255, 199, 43, .82);
+  border: 1px solid rgba(185,130,0, .82);
   border-radius: 50%;
-  background: linear-gradient(180deg, #ffe16a 0%, #ffd23f 100%);
+  background: linear-gradient(180deg, #f2ca64 0%, #ebae10 100%);
   color: transparent;
   font-size: 0;
   line-height: 0;
-  box-shadow: 0 7px 16px rgba(255, 199, 43, .14), inset 0 1px 0 rgba(255, 255, 255, .55);
+  box-shadow: 0 7px 16px rgba(185,130,0, .14), inset 0 1px 0 rgba(255, 255, 255, .55);
 }
 
 .diagnostic-features span::before {
@@ -377,7 +377,7 @@
 .diagnostic-card__action .btn::after {
   content: "→";
   margin-left: 10px;
-  color: #ffd23f;
+  color: #ebae10;
   font-size: 16px;
   line-height: 1;
 }
@@ -506,10 +506,10 @@
   position: relative;
   margin-top: 24px;
   padding: 24px 26px;
-  border: 1px solid rgba(255, 210, 63, .24);
+  border: 1px solid rgba(235,174,16, .24);
   border-radius: 22px;
   background:
-    radial-gradient(circle at 88% 20%, rgba(255, 210, 63, .14), transparent 28%),
+    radial-gradient(circle at 88% 20%, rgba(235,174,16, .14), transparent 28%),
     linear-gradient(135deg, #104d38 0%, #0a3f2e 100%);
   box-shadow: 0 16px 32px rgba(10, 63, 46, .16);
 }
@@ -546,9 +546,9 @@
   padding: 0 20px;
   border: 1px solid rgba(255, 183, 20, .46);
   border-radius: 13px;
-  background: linear-gradient(180deg, #ffdf61 0%, #ffd23f 100%);
+  background: linear-gradient(180deg, #f1c658 0%, #ebae10 100%);
   color: #103d2c;
-  box-shadow: 0 11px 24px rgba(255, 199, 43, .22);
+  box-shadow: 0 11px 24px rgba(185,130,0, .22);
   font-size: 0;
   font-weight: 900;
   letter-spacing: .01em;
@@ -569,8 +569,8 @@
 }
 
 .diagnostic-card__action .btn:hover {
-  background: linear-gradient(180deg, #ffe779 0%, #ffd84c 100%);
-  box-shadow: 0 14px 28px rgba(255, 199, 43, .28);
+  background: linear-gradient(180deg, #f4d27c 0%, #edb82d 100%);
+  box-shadow: 0 14px 28px rgba(185,130,0, .28);
 }
 
 @media (max-width: 680px) {
