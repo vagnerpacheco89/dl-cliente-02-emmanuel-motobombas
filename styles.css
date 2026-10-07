@@ -38,7 +38,7 @@ button{cursor:pointer}
 .site-header{position:sticky;top:0;z-index:50;background:rgba(247,243,232,.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(28,91,67,.08)}
 .nav{height:72px;display:flex;align-items:center;gap:26px}
 .brand{display:inline-flex;align-items:center;gap:11px;flex:0 0 auto}
-.brand__mark{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:800;font-size:13px;box-shadow:inset 0 0 0 4px rgba(243,207,86,.18)}
+.brand__mark{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:800;font-size:13px;box-shadow:inset 0 0 0 4px rgba(235,174,16,.18)}
 .brand__text{display:flex;flex-direction:column;line-height:1.02}
 .brand__text strong{font-size:14px;letter-spacing:-.02em}
 .brand__text small{font-size:9px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin-top:4px}
@@ -56,7 +56,7 @@ button{cursor:pointer}
 .btn{border:0;border-radius:11px;min-height:44px;padding:0 18px;font-weight:800;font-size:11px;letter-spacing:.04em;display:inline-flex;align-items:center;justify-content:center;transition:transform .2s ease,background .2s ease,box-shadow .2s ease}
 .btn:hover{transform:translateY(-1px)}
 .btn--large{min-height:50px;padding-inline:22px}
-.btn--yellow{background:var(--yellow);color:#153c2f;box-shadow:0 10px 24px rgba(243,207,86,.18)}
+.btn--yellow{background:var(--yellow);color:#153c2f;box-shadow:0 10px 24px rgba(235,174,16,.18)}
 .btn--yellow:hover{background:var(--yellow-2)}
 .btn--green{background:var(--green);color:#fff}
 .btn--green:hover{background:var(--green-deep)}
@@ -97,7 +97,7 @@ p{color:var(--muted)}
 .services-section{background:#fffdf8}
 .services-layout{display:grid;grid-template-columns:.92fr 1.08fr;gap:72px;align-items:center}
 .services-media{display:grid;grid-template-columns:1fr .72fr;grid-template-rows:1fr .78fr;gap:16px;position:relative}
-.services-media::after{content:"";position:absolute;width:74px;height:74px;border-radius:50%;right:18%;bottom:20%;background:var(--yellow);box-shadow:0 0 0 10px rgba(243,207,86,.14);z-index:3}
+.services-media::after{content:"";position:absolute;width:74px;height:74px;border-radius:50%;right:18%;bottom:20%;background:var(--yellow);box-shadow:0 0 0 10px rgba(235,174,16,.14);z-index:3}
 .services-media figure{margin:0;position:relative;overflow:hidden;border-radius:22px;background:#ddd}
 .services-media img{width:100%;height:100%;object-fit:cover}
 .services-media__large{grid-row:1/3;min-height:460px}
