@@ -1,43 +1,129 @@
+/*
+  EMMANUEL MOTOBOMBAS — MAPEAMENTO CROMÁTICO SOBRE O LUMEN MASTER
+
+  LUMEN -> EMMANUEL
+  Primária:       #1C5B43 -> #EBAE10
+  Primária deep:  #10442F -> #B98200
+  Primária soft:  #E7EFE9 -> #FFF4D6
+  Secundária:     #F3CF56 -> #151515
+  Secundária alt: #FFDB68 -> #222326
+  Terciária/base: #F7F3E8 -> #FFFFFF
+  Surface:        #FFFDF7 -> #FFFFFF
+  Cinza apoio:    #F1F3EF -> #E8E8E6
+  Texto:          #153C2F -> #151515
+  Muted:          #6F7C76 -> #686866
+  Bordas:         #DCE3DD -> #E8E8E6
+
+  Regra visual:
+  - zero verde característico do LUMEN;
+  - amarelo/dourado = identidade primária;
+  - preto/grafite = massa escura e cor secundária;
+  - branco = base;
+  - cinzas neutros = apoio.
+*/
+
 :root{
-  --bg:#f7f7f4;
+  --bg:#ffffff;
   --surface:#ffffff;
-  --soft:#f1f1ee;
-  --soft-2:#ececea;
+  --soft:#e8e8e6;
+  --soft-2:#f4f4f2;
   --text:#151515;
-  --muted:#66635d;
+  --muted:#686866;
   --line:#e8e8e6;
-  --green:#151515;
-  --green-deep:#090909;
-  --green-soft:#f3ead0;
-  --yellow:#ebae10;
-  --yellow-2:#f4bd24;
+
+  /* nomes legados preservados para compatibilidade com o MASTER */
+  --green:#ebae10;
+  --green-deep:#b98200;
+  --green-soft:#fff4d6;
+  --yellow:#151515;
+  --yellow-2:#222326;
+
   --shadow:0 18px 42px rgba(21,21,21,.08);
 }
 
-body{background:var(--bg);color:var(--text)}
-.site-header{background:rgba(247,247,244,.96);border-bottom-color:rgba(21,21,21,.08)}
-.brand__mark{background:var(--yellow);color:var(--text);box-shadow:inset 0 0 0 4px rgba(21,21,21,.08)}
-.brand__text strong{color:var(--text)}
-.desktop-nav a:hover,.text-link,.eyebrow{color:var(--text)}
-.btn--yellow{background:var(--yellow);color:var(--text);box-shadow:0 10px 24px rgba(235,174,16,.20)}
-.btn--yellow:hover{background:var(--yellow-2)}
-.btn--green{background:var(--text);color:#fff}
-.btn--green:hover{background:#000}
-.hero-card{background:#151515}
-.hero-card__shade{background:linear-gradient(90deg,rgba(9,9,9,.94) 0%,rgba(9,9,9,.80) 38%,rgba(9,9,9,.34) 72%,rgba(9,9,9,.12) 100%)}
-.hero-contact{background:var(--yellow);color:var(--text)}
-.hero-contact .text-link{color:var(--text)}
-.eyebrow--light{color:#f7c944}
-.work-panel,.about-panel,.area-card,.site-footer{background:#151515}
-.final-cta__shade{background:linear-gradient(90deg,rgba(9,9,9,.94) 0%,rgba(9,9,9,.78) 48%,rgba(9,9,9,.24) 100%)}
-.rating-card{background:var(--yellow);color:var(--text)}
-.review-quote{color:var(--text)}
-.demo-dialog__badge{color:var(--text);background:#f3ead0}
-.footer-demo{border-color:rgba(235,174,16,.72);color:#f7c944}
-.brand--footer .brand__mark{background:var(--yellow);color:var(--text)}
-.footer-grid h2{color:#f7c944}
+body{background:#ffffff;color:#151515}
+.site-header{background:rgba(255,255,255,.96);border-bottom-color:rgba(21,21,21,.08)}
+
+.brand__mark{
+  background:#ebae10;
+  color:#151515;
+  box-shadow:inset 0 0 0 4px rgba(21,21,21,.08);
+}
+.brand__text strong{color:#151515}
+.brand__text small{color:#686866}
+.desktop-nav a{color:#555552}
+.desktop-nav a:hover,.text-link,.eyebrow{color:#b98200}
+.menu-toggle span{background:#151515}
+
+/* LUMEN secondary yellow -> Emmanuel secondary black */
+.btn--yellow{
+  background:#151515;
+  color:#ffffff;
+  box-shadow:0 10px 24px rgba(21,21,21,.16);
+}
+.btn--yellow:hover{background:#222326;color:#ffffff}
+
+/* LUMEN primary green -> Emmanuel primary gold */
+.btn--green{background:#ebae10;color:#151515}
+.btn--green:hover{background:#b98200;color:#ffffff}
+
+.hero-card{background:#222326}
+.hero-card__shade{
+  background:linear-gradient(90deg,rgba(9,9,9,.94) 0%,rgba(9,9,9,.80) 38%,rgba(9,9,9,.34) 72%,rgba(9,9,9,.12) 100%);
+}
+.hero-proof span::before{background:#ebae10}
+.hero-contact{
+  background:#151515;
+  color:#ffffff;
+  box-shadow:0 20px 45px rgba(0,0,0,.22);
+}
+.hero-contact .text-link{color:#ebae10}
+.eyebrow--light{color:#ebae10}
+
+/* grandes massas escuras usam a secundária, não blocos amarelos gigantes */
+.work-panel,
+.about-panel,
+.area-card{
+  background:#151515;
+}
+
+.site-footer{
+  background:#151515 !important;
+  background-image:none !important;
+}
+
+.final-cta__shade{
+  background:linear-gradient(90deg,rgba(9,9,9,.95) 0%,rgba(9,9,9,.80) 48%,rgba(9,9,9,.24) 100%) !important;
+}
+
+.final-cta__card{
+  background:#151515 !important;
+}
+
+.rating-card{background:#151515;color:#ffffff}
+.rating-card *{color:inherit}
+.review-quote{color:#151515}
+
+.demo-dialog__badge{
+  color:#151515;
+  background:#fff4d6;
+}
+
+.footer-demo{border-color:rgba(235,174,16,.72);color:#ebae10}
+.brand--footer .brand__mark{background:#ebae10;color:#151515}
+.footer-grid h2{color:#ebae10}
+
+/* neutralização de resíduos cromáticos do MASTER */
+.quality-section,
+.reviews-section,
+.faq-section,
+.about-wrap{background:#ffffff}
 
 @media (max-width:680px){
-  .hero-card__shade{background:linear-gradient(180deg,rgba(9,9,9,.88) 0%,rgba(9,9,9,.72) 60%,rgba(9,9,9,.36) 100%)}
-  .final-cta__shade{background:linear-gradient(180deg,rgba(9,9,9,.90),rgba(9,9,9,.70))}
+  .hero-card__shade{
+    background:linear-gradient(180deg,rgba(9,9,9,.90) 0%,rgba(9,9,9,.72) 60%,rgba(9,9,9,.36) 100%);
+  }
+  .final-cta__shade{
+    background:linear-gradient(180deg,rgba(9,9,9,.92),rgba(9,9,9,.72)) !important;
+  }
 }
