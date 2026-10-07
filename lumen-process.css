@@ -5,7 +5,7 @@
   padding: 68px 0 76px;
   background:
     radial-gradient(circle at 88% 12%, rgba(255, 210, 63, .11), transparent 24%),
-    #f2f5f1;
+    #fff4d6;
   overflow: hidden;
 }
 
@@ -15,7 +15,7 @@
   border: 1px solid rgba(21,21,21, .10);
   border-radius: 30px;
   background: #ffffff;
-  box-shadow: 0 24px 60px rgba(20, 65, 48, .07);
+  box-shadow: 0 24px 60px rgba(21,21,21,.07);
   overflow: hidden;
 }
 
@@ -65,7 +65,7 @@
 .process-head__lead {
   max-width: 650px;
   margin: 18px 0 0;
-  color: #65766e;
+  color: #ebae10;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -136,7 +136,7 @@
   border-radius: 18px;
   text-align: center;
   box-shadow:
-    0 10px 24px rgba(20,65,48,.045),
+    0 10px 24px rgba(21,21,21,.045),
     inset 0 1px 0 rgba(255,255,255,.88);
   transition:
     transform .24s cubic-bezier(.22,.61,.36,1),
@@ -148,19 +148,19 @@
 .process-step:nth-of-type(1) {
   grid-column: 1;
   grid-row: 1;
-  background: linear-gradient(145deg, #fbfcf7 0%, #f2f7f2 100%);
+  background: linear-gradient(145deg, #fbfcf7 0%, #fff4d6 100%);
 }
 
 .process-step:nth-of-type(2) {
   grid-column: 2;
   grid-row: 2;
-  background: linear-gradient(145deg, #f4f8f3 0%, #eaf3ec 100%);
+  background: linear-gradient(145deg, #fff4d6 0%, #fff4d6 100%);
 }
 
 .process-step:nth-of-type(3) {
   grid-column: 3;
   grid-row: 1;
-  background: linear-gradient(145deg, #f8faf1 0%, #eef5e9 100%);
+  background: linear-gradient(145deg, #f8faf1 0%, #fff4d6 100%);
 }
 
 .process-step:nth-of-type(4) {
@@ -186,8 +186,8 @@
   border: 1px solid rgba(21,21,21, .18);
   border-radius: 9px;
   background: rgba(255, 253, 248, .92);
-  color: #174d39;
-  box-shadow: 0 5px 14px rgba(20,65,48,.07);
+  color: #151515;
+  box-shadow: 0 5px 14px rgba(21,21,21,.07);
   font-size: 11.5px;
   font-weight: 850;
   line-height: 1;
@@ -209,7 +209,7 @@
   height: 7px;
   border: 2px solid #ffffff;
   border-radius: 50%;
-  background: #b7c9bf;
+  background: #686866;
   transform: translateY(-50%);
   transition: background .22s ease, box-shadow .22s ease;
 }
@@ -224,7 +224,7 @@
 
 .process-step p {
   margin: 0;
-  color: #6b7a73;
+  color: #ebae10;
   font-size: 10.75px;
   line-height: 1.48;
 }
@@ -235,7 +235,7 @@
   border-color: rgba(245,191,37,.55);
   background: linear-gradient(145deg, #fffdf2 0%, #fff7d8 100%);
   box-shadow:
-    0 16px 34px rgba(20,65,48,.075),
+    0 16px 34px rgba(21,21,21,.075),
     0 6px 22px rgba(245,191,37,.09),
     inset 0 1px 0 rgba(255,255,255,.94);
 }
@@ -244,7 +244,7 @@
 .process-step:focus-within .process-step__number {
   border-color: var(--yellow);
   background: var(--yellow);
-  color: #123e2f;
+  color: #151515;
   transform: translateY(-1px);
   box-shadow: 0 7px 18px rgba(245,191,37,.22);
 }
@@ -260,21 +260,21 @@
 .process-route:has(.process-step:nth-of-type(3):is(:hover,:focus-within)) .process-step:nth-of-type(-n+2),
 .process-route:has(.process-step:nth-of-type(4):is(:hover,:focus-within)) .process-step:nth-of-type(-n+3) {
   border-color: rgba(21,21,21,.23);
-  box-shadow: 0 11px 26px rgba(20,65,48,.055), inset 0 1px 0 rgba(255,255,255,.9);
+  box-shadow: 0 11px 26px rgba(21,21,21,.055), inset 0 1px 0 rgba(255,255,255,.9);
 }
 
 .process-route:has(.process-step:nth-of-type(2):is(:hover,:focus-within)) .process-step:nth-of-type(1) .process-step__number,
 .process-route:has(.process-step:nth-of-type(3):is(:hover,:focus-within)) .process-step:nth-of-type(-n+2) .process-step__number,
 .process-route:has(.process-step:nth-of-type(4):is(:hover,:focus-within)) .process-step:nth-of-type(-n+3) .process-step__number {
-  border-color: #237554;
-  background: #237554;
+  border-color: #b98200;
+  background: #b98200;
   color: #fff;
 }
 
 .process-route:has(.process-step:nth-of-type(2):is(:hover,:focus-within)) .process-step:nth-of-type(1) .process-step__number::after,
 .process-route:has(.process-step:nth-of-type(3):is(:hover,:focus-within)) .process-step:nth-of-type(-n+2) .process-step__number::after,
 .process-route:has(.process-step:nth-of-type(4):is(:hover,:focus-within)) .process-step:nth-of-type(-n+3) .process-step__number::after {
-  background: #237554;
+  background: #b98200;
 }
 
 .process-close {
@@ -289,7 +289,7 @@
 
 .process-close p {
   margin: 0;
-  color: #315849;
+  color: #b98200;
   font-size: 13px;
   font-weight: 700;
 }
