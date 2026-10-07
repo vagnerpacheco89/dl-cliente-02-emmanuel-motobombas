@@ -44,7 +44,7 @@
   }
 
   .process-step:not(:last-child)::before {
-    background: #686866;
+    background: #b7c9bf;
     opacity: .92;
     transition: opacity .18s ease;
   }
