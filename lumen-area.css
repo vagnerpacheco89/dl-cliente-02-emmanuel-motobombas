@@ -1,7 +1,7 @@
 .area-section {
   padding-top: 40px;
   padding-bottom: 74px;
-  background: #fffdf8;
+  background: #ffffff;
 }
 
 .area-card {
@@ -14,9 +14,9 @@
   padding: clamp(46px, 5vw, 66px);
   padding-bottom: 38px;
   border-radius: 32px 32px 0 0;
-  background: #10442f;
+  background: #b98200;
   color: #fff;
-  box-shadow: 0 12px 36px rgba(16, 68, 47, .08);
+  box-shadow: 0 12px 36px rgba(21,21,21, .08);
 }
 
 .area-card::before {
@@ -125,8 +125,8 @@
   margin-top: -1px;
   padding: 0 clamp(46px, 5vw, 66px) clamp(46px, 5vw, 66px);
   border-radius: 0 0 32px 32px;
-  background: #10442f;
-  box-shadow: 0 22px 54px rgba(16, 68, 47, .12);
+  background: #b98200;
+  box-shadow: 0 22px 54px rgba(21,21,21, .12);
 }
 
 .area-map-wrap::after {
