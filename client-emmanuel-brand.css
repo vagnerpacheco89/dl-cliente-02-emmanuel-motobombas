@@ -1,21 +1,25 @@
-/* Emmanuel Motobombas — client brand symbol application.
-   Keeps LUMEN layout intact; only replaces the textual brand mark with the supplied symbol. */
+/* Emmanuel Motobombas — client symbol application */
 .brand__mark{
   width:38px !important;
   height:38px !important;
   flex:0 0 38px !important;
+  display:grid !important;
+  place-items:center !important;
   border-radius:50% !important;
-  background-color:transparent !important;
-  background-image:url("data:image/webp;base64,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");
-  background-repeat:no-repeat !important;
-  background-position:center !important;
-  background-size:contain !important;
-  color:transparent !important;
-  font-size:0 !important;
+  overflow:hidden !important;
+  background:transparent !important;
   box-shadow:none !important;
   border:0 !important;
+  color:transparent !important;
+  font-size:0 !important;
+}
+.brand__mark img{
+  display:block !important;
+  width:100% !important;
+  height:100% !important;
+  object-fit:contain !important;
 }
 .brand--footer .brand__mark{
-  background-color:#fff !important;
+  background:#fff !important;
   padding:2px !important;
 }
