@@ -39,7 +39,7 @@
   padding: 10px 14px 10px 31px;
   border: 1px solid rgba(245, 191, 37, .92);
   border-radius: 999px;
-  background: #f5bf25;
+  background: #c68d04;
   color: #10442f;
   box-shadow: 0 10px 24px rgba(245, 191, 37, .22);
   font-size: 9px;
@@ -82,13 +82,13 @@
 
 .final-cta__content .eyebrow {
   margin-bottom: 15px;
-  color: #f7cb43 !important;
+  color: #ebae10 !important;
   font-size: 0;
 }
 
 .final-cta__content .eyebrow::after {
   content: "PRONTO PARA DAR O PRÓXIMO PASSO?";
-  color: #f7cb43;
+  color: #ebae10;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: .14em;
