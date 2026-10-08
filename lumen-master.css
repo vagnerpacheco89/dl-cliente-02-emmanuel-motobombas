@@ -415,12 +415,17 @@
 .final-cta__content .eyebrow::after { content: none !important; display: none !important; }
 
 .final-cta__content h2 {
-  max-width: 690px !important;
+  max-width: 760px !important;
   margin-bottom: 18px !important;
   color: var(--neutral-white) !important;
-  font-size: clamp(38px, 4vw, 58px) !important;
+  font-size: clamp(36px, 3.45vw, 52px) !important;
   line-height: 1.02 !important;
   letter-spacing: -.05em !important;
+}
+
+.final-cta__content h2 > span {
+  display: block;
+  white-space: nowrap;
 }
 .final-cta__content h2::after { content: none !important; display: none !important; }
 
@@ -578,7 +583,8 @@
   #faq .faq-list details summary { font-size: 14px !important; }
   #faq .faq-list details > p { font-size: 12.5px !important; line-height: 1.65 !important; }
 
-  .final-cta__content h2 { font-size: clamp(32px, 10vw, 43px) !important; }
+  .final-cta__content h2 { font-size: clamp(28px, 8.4vw, 40px) !important; }
+  .final-cta__content h2 > span { white-space: nowrap; }
   .final-cta__content > p.final-cta__support { font-size: 14px !important; }
   .final-cta__content > p.final-cta__note {
     margin-top: 16px !important;
@@ -597,7 +603,8 @@
 }
 
 @media (max-width: 420px) {
-  .final-cta__content h2 { font-size: clamp(30px, 9.6vw, 40px) !important; }
+  .final-cta__content h2 { font-size: clamp(26px, 7.8vw, 36px) !important; }
+  .final-cta__content h2 > span { white-space: nowrap; }
 }
 
 @media (max-width: 380px) {
