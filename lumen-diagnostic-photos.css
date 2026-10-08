@@ -44,22 +44,22 @@
 }
 
 .diagnostic-features article:nth-child(1) span {
-  background-image: url("./assets/hd/asset-problema-01-disjuntor-desarmando-hd.avif") !important;
+  background-image: url("./assets/emmanuel-card-motobombas.webp") !important;
   background-position: center 50% !important;
 }
 
 .diagnostic-features article:nth-child(2) span {
-  background-image: url("./assets/hd/asset-problema-02-tomada-aquecendo-hd.avif") !important;
+  background-image: url("./assets/emmanuel-card-motores-eletricos.webp") !important;
   background-position: center 50% !important;
 }
 
 .diagnostic-features article:nth-child(3) span {
-  background-image: url("./assets/hd/asset-problema-03-parte-sem-energia-hd.avif") !important;
+  background-image: url("./assets/emmanuel-card-sistemas-eletricos.webp") !important;
   background-position: center 50% !important;
 }
 
 .diagnostic-features article:nth-child(4) span {
-  background-image: url("./assets/hd/asset-problema-04-chuveiro-queimado-hd.avif") !important;
+  background-image: url("./assets/emmanuel-card-sistemas-hidraulicos.webp") !important;
   background-position: center 50% !important;
 }
 
@@ -175,4 +175,11 @@
     width: 90px !important;
     height: 76px !important;
   }
+}
+
+
+/* Emmanuel diagnostic cards — stylized transparent assets */
+.diagnostic-features span{
+  background-size: contain !important;
+  background-color: transparent !important;
 }
