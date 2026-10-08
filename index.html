@@ -154,6 +154,28 @@
     .brand--footer .brand__mark{
       background:#ffffff !important;
     }
+
+    .brand__text{
+      display:flex !important;
+      flex-direction:column !important;
+      justify-content:center !important;
+      align-items:flex-start !important;
+      line-height:1 !important;
+    }
+    .brand__text strong{
+      display:block !important;
+      line-height:1 !important;
+    }
+    .brand__text small{
+      display:block !important;
+      margin-top:4px !important;
+      color:#EBAE10 !important;
+      text-transform:uppercase !important;
+      font-weight:800 !important;
+      letter-spacing:.06em !important;
+      line-height:1 !important;
+    }
+
     @media (max-width:680px){
       .site-header .brand__mark{
         width:38px !important;
@@ -162,12 +184,10 @@
         min-height:38px !important;
         flex-basis:38px !important;
       }
+      .brand__text small{
+        letter-spacing:.05em !important;
+      }
     }
-    .brand__text small{
-      color:#EBAE10 !important;
-      text-transform:none !important;
-    }
-
   </style>
 </head>
 <body>
@@ -177,7 +197,7 @@
     <div class="container nav">
       <a class="brand" href="#topo" aria-label="Emmanuel Motobombas — início">
         <span class="brand__mark"><img src="assets/emmanuel-symbol-master.png" alt="" aria-hidden="true" /></span>
-        <span class="brand__text"><strong>Emmanuel</strong><small>Motobombas</small></span>
+        <span class="brand__text"><strong>Emmanuel</strong><small>MOTOBOMBAS</small></span>
       </a>
       <span class="nav-demo-tag">PRÉVIA PERSONALIZADA</span>
 
@@ -548,7 +568,7 @@
         <div class="footer-brand-col">
           <a class="brand brand--footer" href="#topo" aria-label="Emmanuel Motobombas — voltar ao início">
             <span class="brand__mark"><img src="assets/emmanuel-symbol-master.png" alt="" aria-hidden="true" /></span>
-            <span class="brand__text"><strong>Emmanuel</strong><small>Motobombas</small></span>
+            <span class="brand__text"><strong>Emmanuel</strong><small>MOTOBOMBAS</small></span>
           </a>
           <p>Motobombas, instalações elétricas e hidráulicas, manutenção, inspeção predial e projetos personalizados na Grande Florianópolis e região.</p>
 
