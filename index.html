@@ -112,9 +112,12 @@
 
   <style id="emmanuel-brand-fix">
     .brand__mark{
-      width:38px !important;
-      height:38px !important;
-      flex:0 0 38px !important;
+      width:42px !important;
+      height:42px !important;
+      min-width:42px !important;
+      min-height:42px !important;
+      flex:0 0 42px !important;
+      aspect-ratio:1 / 1 !important;
       display:grid !important;
       place-items:center !important;
       border-radius:50% !important;
@@ -125,8 +128,15 @@
       color:transparent !important;
       font-size:0 !important;
       padding:0 !important;
+      box-sizing:border-box !important;
     }
     .site-header .brand__mark{
+      width:42px !important;
+      height:42px !important;
+      min-width:42px !important;
+      min-height:42px !important;
+      flex-basis:42px !important;
+      aspect-ratio:1 / 1 !important;
       background:#ffffff !important;
       color:transparent !important;
     }
@@ -134,12 +144,24 @@
       display:block !important;
       width:100% !important;
       height:100% !important;
+      max-width:none !important;
+      max-height:none !important;
       object-fit:contain !important;
-      transform:scale(1.12) !important;
+      object-position:center !important;
       background:transparent !important;
+      transform:none !important;
     }
     .brand--footer .brand__mark{
       background:#ffffff !important;
+    }
+    @media (max-width:680px){
+      .site-header .brand__mark{
+        width:38px !important;
+        height:38px !important;
+        min-width:38px !important;
+        min-height:38px !important;
+        flex-basis:38px !important;
+      }
     }
   </style>
 </head>
