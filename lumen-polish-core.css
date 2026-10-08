@@ -490,36 +490,9 @@
 .diagnostic-features article:nth-child(1) small,
 .diagnostic-features article:nth-child(2) small,
 .diagnostic-features article:nth-child(3) small,
-.diagnostic-features article:nth-child(4) small {
-  font-size: 0 !important;
-}
-
 .diagnostic-features article:nth-child(1) small::before,
 .diagnostic-features article:nth-child(2) small::before,
 .diagnostic-features article:nth-child(3) small::before,
-.diagnostic-features article:nth-child(4) small::before {
-  display: block;
-  color: var(--primary-muted);
-  font-size: 13px;
-  line-height: 1.55;
-}
-
-.diagnostic-features article:nth-child(1) small::before {
-  content: "Volta a cair mesmo depois de religar.";
-}
-
-.diagnostic-features article:nth-child(2) small::before {
-  content: "Esquenta, escurece ou apresenta mau contato.";
-}
-
-.diagnostic-features article:nth-child(3) small::before {
-  content: "Um cômodo ou circuito deixou de funcionar.";
-}
-
-.diagnostic-features article:nth-child(4) small::before {
-  content: "Sinal de que algo precisa ser avaliado com atenção.";
-}
-
 .diagnostic-card__action {
   position: relative;
   margin-top: 24px;
@@ -595,10 +568,6 @@
   .diagnostic-features article:nth-child(1) small::before,
   .diagnostic-features article:nth-child(2) small::before,
   .diagnostic-features article:nth-child(3) small::before,
-  .diagnostic-features article:nth-child(4) small::before {
-    font-size: 12.5px;
-  }
-
   .diagnostic-card__action {
     padding: 20px 16px;
     gap: 16px;
