@@ -188,8 +188,22 @@
         letter-spacing:.05em !important;
       }
     }
+    .hero-card__content h1{
+      max-width:none !important;
+      font-size:clamp(44px,4.25vw,58px) !important;
+      line-height:1.02 !important;
+    }
     .hero-card__content h1 > span{
       display:block !important;
+      white-space:nowrap !important;
+    }
+    @media (max-width:680px){
+      .hero-card__content h1{
+        font-size:clamp(36px,10vw,48px) !important;
+      }
+      .hero-card__content h1 > span{
+        white-space:normal !important;
+      }
     }
 
   </style>
@@ -240,7 +254,7 @@
           <div class="hero-card__shade"></div>
 
           <div class="hero-card__content">
-            <p class="eyebrow eyebrow--light">GRANDE FLORIANÓPOLIS E REGIÃO</p>
+            <p class="eyebrow eyebrow--light">SÃO JOSÉ E REGIÃO</p>
             <h1><span>Eletricista de Motobombas</span><span>em São José</span></h1>
             <p class="hero-card__lead">Motobombas, motores elétricos, manutenção e instalações elétricas e hidráulicas para residências, comércios, condomínios e indústrias.</p>
             <div class="hero-card__actions">
