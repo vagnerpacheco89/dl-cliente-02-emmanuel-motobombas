@@ -76,25 +76,6 @@
   align-self: start !important;
 }
 
-/* The fourth problem changed from 'cheiro de queimado' to a distinct shower problem. */
-.diagnostic-features article:nth-child(4) strong {
-  font-size: 0 !important;
-}
-
-.diagnostic-features article:nth-child(4) strong::before {
-  content: "Chuveiro queimado";
-  display: block;
-  color: var(--primary-deeper);
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 1.22;
-  letter-spacing: -.025em;
-}
-
-.diagnostic-features article:nth-child(4) small::before {
-  content: "Parou de funcionar ou apresenta sinais de dano." !important;
-}
-
 /* MICROINTERACTION — a green band sweeps across the card border on hover. */
 .diagnostic-features article::after {
   content: "" !important;
