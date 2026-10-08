@@ -487,12 +487,6 @@
   content: "Está com algum destes\Aproblemas elétricos?";
 }
 
-.diagnostic-features article:nth-child(1) small,
-.diagnostic-features article:nth-child(2) small,
-.diagnostic-features article:nth-child(3) small,
-.diagnostic-features article:nth-child(1) small::before,
-.diagnostic-features article:nth-child(2) small::before,
-.diagnostic-features article:nth-child(3) small::before,
 .diagnostic-card__action {
   position: relative;
   margin-top: 24px;
